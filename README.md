@@ -24,7 +24,7 @@ Instead of juggling multiple apps, Hermes creates a **single flow** that carries
 
 ### 🎭 Mood-Based Experience
 
-* Users select their current mood (Focused, Calm, Pumped, etc.)
+* Users select their current mood (Focused, Calm, Pumped, etc)
 * Hermes dynamically responds with a tailored experience
 
 ### 🎧 Smart Playlist System
