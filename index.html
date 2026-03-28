@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hermes</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" type="image/png" href="icon.png">
+    </head>
+
+    <body>
+        <div id="loading-screen">
+            <div id="loading-bg"></div>
+            <div id="loading-text"></div>
+        </div>
+
+        <div id="main-app" style="display: none;">
+            <div id="particles"></div>
+            
+            <div id="app">
+
+                <header>
+                    <h1>Hermes</h1>
+                    <h2>Hey! So, how are we feeling today?</h2>
+                </header>
+
+                <main>
+                    <div id="app-container">
+                        <div id="mood-prompt">
+                            <!-- Mood buttons will go here later-->
+                            <button class ="mood-btn" data-mood="focused">Focused</button>
+                            <button class ="mood-btn" data-mood="calm">Calm</button>
+                            <button class ="mood-btn" data-mood="pumped">Pumped</button>
+                            <button class ="mood-btn" data-mood="energetic">Energetic</button>
+                            <button class ="mood-btn" data-mood="somber">Somber</button>
+                            <button class ="mood-btn" data-mood="reflective">Reflective</button>
+                        </div>
+
+                        <div id="playlist-area"></div>
+
+                        <!-- Notebook icon, top right -->
+                        <div id="notebook-icon">📓</div>
+
+                        <!-- Notebook panel, hidden by default -->
+                        <div id="notebook-panel">
+                            <h3>Daily Planner</h3>
+                            <ul id="task-list"></ul>
+                            <div id="add-task">
+                                <input type="text" id="task-input" placeholder="Add a new task..." />
+                                <button id="add-task-btn">Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+    </body>
+</html>
